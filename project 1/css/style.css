@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #2874f0;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    padding: 0 10px;
+    margin-top: 0;
+    
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: rgb(4, 16, 196); */
+    font-weight: bolder;
+}
+.searchbar{
+    display: inline-block;
+    margin:15px 200px 0px -20px;
+}
+.searchbar input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 3px;
+    margin: 0 12px 0 56px;
+    padding: 0 12px;
+}
+.slider{
+    width: 85vw;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.card{
+
+    max-width: 90vw;
+    margin: auto;
+}
+.card-item{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 12px;
+}
+
+.card h2{
+    margin: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    min-height: calc(100vh - 58px - 10vh);
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.grab:hover{
+    color: #2874f0;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
